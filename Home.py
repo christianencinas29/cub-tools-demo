@@ -2,15 +2,15 @@ import streamlit as st
 import os
 
 st.set_page_config(
-    page_title="COBRAS Revenue Analysis Tools",
+    page_title="CUB Admin Tools Demo",
     page_icon="📊",
     layout="wide"
 )
 
-st.title("📊 COBRAS Revenue Analysis Tools")
+st.title("📊 CUB Admin Tools Demo")
 
 st.markdown("""
-This application provides tools to analyze revenue data from COBRAS:
+This application provides tools to analyze revenue data:
 
 ### 🔍 Available Tools:
 
