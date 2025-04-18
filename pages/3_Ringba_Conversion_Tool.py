@@ -5,8 +5,8 @@ import io
 
 st.set_page_config(page_title="CUB Admin Tools - Conversion Tool", layout="wide")
 
-st.title("Ringba Call Log Conversion Tool")
-st.write("This app converts Ringba call log exports to the conversion format required for uploads.")
+st.title("Redtrack Conversion Tool")
+st.write("This app converts Ringba call log exports to the conversion format required for Redtrack Conversion uploads.")
 
 # Configuration options in columns
 col1, col2 = st.columns(2)
