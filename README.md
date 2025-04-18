@@ -40,7 +40,7 @@ This multi-page Streamlit application provides administrative tools for CUB data
 2. Upload your Ringba Call Log Export CSV (optional, for CPA analysis)
 3. Use the various tabs to analyze the data
 
-### Ringba Conversion Tool
+### Redtrack Conversion Tool
 1. Export your call log data from Ringba
 2. Select the conversion type from the dropdown
 3. Set the payout value if needed
