@@ -10,7 +10,7 @@ st.set_page_config(
 st.title("📊 CUB Admin Tools Demo")
 
 st.markdown("""
-This application provides tools to analyze revenue data:
+This application provides administrative tools for CUB data analysis:
 
 ### 🔍 Available Tools:
 
@@ -24,6 +24,12 @@ This application provides tools to analyze revenue data:
 - Match phone numbers between policy data and Ringba call logs
 - Calculate policy counts
 - Perform CPA analysis by publisher
+
+**3. Ringba Conversion Tool** - Convert Ringba call logs to conversion format:
+- Select conversion type from multiple options
+- Adjust timestamps automatically (+4 hours)
+- Set custom payout values for specific conversion types
+- Generate ready-to-upload conversion files
 
 ### 📋 Getting Started:
 

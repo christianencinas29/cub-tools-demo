@@ -1,6 +1,6 @@
-# 📊 CUB Admin Tools - Demo App
+# CUB Admin Tools Demo
 
-This multi-page Streamlit application provides tools to analyze revenue data.
+This multi-page Streamlit application provides administrative tools for CUB data analysis.
 
 ## Features
 
@@ -15,6 +15,12 @@ This multi-page Streamlit application provides tools to analyze revenue data.
 - CPA Analysis: Calculate CPA metrics by publisher
 - Data Exploration: Explore and filter policy data
 - Phone Number Matching: Match phone numbers between policy data and Ringba call logs
+
+### 3. Ringba Conversion Tool
+- Conversion Format Creation: Converts Ringba call logs to the required conversion upload format
+- Multiple Conversion Types: Supports 20+ conversion types (50m, 5m, Lead, etc.)
+- Timestamp Adjustment: Automatically adds 4 hours to timestamps
+- Custom Payouts: Set custom payout values for specific conversion types
 
 ## How to Use
 
@@ -33,6 +39,14 @@ This multi-page Streamlit application provides tools to analyze revenue data.
 1. Upload your Policies CSV file (requires ANI and Buyer/Publisher columns)
 2. Upload your Ringba Call Log Export CSV (optional, for CPA analysis)
 3. Use the various tabs to analyze the data
+
+### Ringba Conversion Tool
+1. Export your call log data from Ringba
+2. Select the conversion type from the dropdown
+3. Set the payout value if needed
+4. Upload the CSV file
+5. Click "Generate Conversion File"
+6. Download the formatted conversion file
 
 ## Sample Data
 
