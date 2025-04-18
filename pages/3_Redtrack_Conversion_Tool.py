@@ -33,7 +33,7 @@ with col2:
         st.text_input("Payout Value", value="0.00", disabled=True, help="Only available for Lead, Pcall, Paywall, and PaywallNcon conversion types")
         payout_value = 0.0
 
-uploaded_file = st.file_uploader("Upload Ringba CSV Export (must have column 'Call Complete Timestamp' and 'tag:User:rtkcid')", type="csv")
+uploaded_file = st.file_uploader("Upload Ringba CSV Export (must have column 'Call Complete Timestamp' and 'rtkcid')", type="csv")
 
 if uploaded_file is not None:
     # Read the uploaded file
@@ -101,7 +101,7 @@ if uploaded_file is not None:
                     cols[3].metric("Payout Value", f"${payout_value:.2f}")
                     
             else:
-                st.error("The file doesn't have the required columns: 'tag:User:rtkcid' and 'Call Complete Timestamp'")
+                st.error("The file doesn't have the required columns: 'rtkcid' and 'Call Complete Timestamp'")
     
     except Exception as e:
         st.error(f"Error processing the file: {e}")
