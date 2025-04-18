@@ -25,7 +25,7 @@ This application provides administrative tools for CUB data analysis:
 - Calculate policy counts
 - Perform CPA analysis by publisher
 
-**3. Ringba Conversion Tool** - Convert Ringba call logs to conversion format:
+**3. Redtrack Conversion Tool** - Convert Ringba call logs to conversion format:
 - Select conversion type from multiple options
 - Adjust timestamps automatically (+4 hours)
 - Set custom payout values for specific conversion types
