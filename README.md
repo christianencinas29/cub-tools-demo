@@ -16,7 +16,7 @@ This multi-page Streamlit application provides administrative tools for CUB data
 - Data Exploration: Explore and filter policy data
 - Phone Number Matching: Match phone numbers between policy data and Ringba call logs
 
-### 3. Ringba Conversion Tool
+### 3. Redtrack Conversion Tool
 - Conversion Format Creation: Converts Ringba call logs to the required conversion upload format
 - Multiple Conversion Types: Supports 20+ conversion types (50m, 5m, Lead, etc.)
 - Timestamp Adjustment: Automatically adds 4 hours to timestamps
