@@ -126,4 +126,4 @@ with st.sidebar:
     """)
     
     st.divider()
-    st.write("Created by AI Assistant") 
+    st.write("Created by Admin Team") 
