@@ -72,7 +72,6 @@ st.markdown("""
 ---
 ### 📞 Support
 
-For questions or assistance, contact admin@cobras.com
 
 *Version 1.0.0*
 """) 
